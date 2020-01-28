@@ -4,9 +4,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  # attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  # puts ["Hello, my name is #{name}."]
-  attendees.each{|name| badge_maker(name)}
+  attendees.each do |name| 
+    return badge_maker(name)
+  end
 end
 
 def assign_rooms(speaker_array)
