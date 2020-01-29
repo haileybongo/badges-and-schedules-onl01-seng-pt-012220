@@ -35,8 +35,8 @@ end
 #end
 
 def printer(attendees)
-  badge
-  assignment
+  badge = "name"
+  assignment = "room"
   attendee = 1
   while attendee <= attendees.size
     attendees.each do |name|
