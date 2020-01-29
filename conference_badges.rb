@@ -25,11 +25,11 @@ def assign_rooms(speaker_array)
 end
 
 #def printer(attendees)
-  badge = []
+ # badge = []
   #assign = []
-    badge << batch_badge_creator(attendees)
-    badge << assign_rooms(attendees)
-  puts badge
+   # badge << batch_badge_creator(attendees)
+   # badge << assign_rooms(attendees)
+ # puts badge
     #assign << assign_rooms(attendees)
   #puts assign
 #end
