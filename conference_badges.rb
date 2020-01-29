@@ -35,12 +35,12 @@ end
 #end
 
 def printer(attendees)
-  badge = "name"
-  assignment = "room"
+  badge = []
+  assignment = []
   attendee = 1
   while attendee <= attendees.size
     attendees.each do |name|
-      badge = batch_badge_creator(name)
+    batch_badge_creator(name)
       assignment = assign_room(name)
       attendee += 1
     end
