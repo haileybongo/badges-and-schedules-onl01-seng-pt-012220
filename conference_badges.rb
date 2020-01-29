@@ -28,7 +28,9 @@ def printer(attendees)
   list = []
   attendees.each do |name|
     list << batch_badge_creator(name)
+  end
+  attendees.each do |name|
     list << assign_rooms(name)
   end
-  return list
+ puts list
 end
