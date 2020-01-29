@@ -44,6 +44,7 @@ def printer(attendees)
       puts badge
       assignment = assign_room(name)
       puts assignment
+      attendee += 1
     end
   end
 end
