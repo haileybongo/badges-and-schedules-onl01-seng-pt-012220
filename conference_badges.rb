@@ -24,7 +24,7 @@ def assign_rooms(speaker_array)
   return room_assign
 end
 
-def printer(attendees)
+#def printer(attendees)
   badge = []
   #assign = []
     badge << batch_badge_creator(attendees)
@@ -32,7 +32,7 @@ def printer(attendees)
   puts badge
     #assign << assign_rooms(attendees)
   #puts assign
-end
+#end
 
 def printer(attendees)
   list = []
