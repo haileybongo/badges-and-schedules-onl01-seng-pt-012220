@@ -24,7 +24,9 @@ def assign_rooms(speaker_array)
   return room_assign
 end
 
-def printer
-  return batch_badge_creator(name)
-  return assign_rooms(array)
+def printer(attendees)
+  attendees.each do |name|
+    return batch_badge_creator(name)
+    return assign_rooms(name)
+  end
 end
