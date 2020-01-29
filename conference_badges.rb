@@ -30,13 +30,13 @@ def printer(attendees)
    badge = batch_badge_creator(name)
    badge_array << badge
  end
- puts badge_array
+ return badge_array
  assign_array = []
  attendees.each do |name|
    assign = room_assign(name)
    assign_array << assign
  end
- puts assign_array
+ return assign_array
  end
   
   
