@@ -30,5 +30,5 @@ def printer(attendees)
     list << batch_badge_creator(name)
     list << assign_rooms(name)
   end
-  puts list
+  return list
 end
