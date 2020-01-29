@@ -25,12 +25,14 @@ def assign_rooms(speaker_array)
 end
 
 def printer(attendees)
-  list = []
+  badge = []
+  assign = []
   attendees.each do |name|
     list << batch_badge_creator(name)
   end
+  puts badge
   attendees.each do |name|
-    list << assign_rooms(name)
+    assign << assign_rooms(name)
   end
- puts list
+  puts assign
 end
