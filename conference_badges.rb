@@ -33,3 +33,14 @@ def printer(attendees)
     #assign << assign_rooms(attendees)
   #puts assign
 end
+
+def printer(attendees)
+  list = []
+  attendee = 1
+  while attendee <= attendees.size
+    attendees.each do |name|
+      puts batch_badge_creator(name)
+      puts assign_room(name)
+    end
+  end
+end
