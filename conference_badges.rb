@@ -30,6 +30,5 @@ def printer(attendees)
     badge << batch_badge_creator(attendees)
   puts badge
     assign << assign_rooms(attendees)
-  end
   puts assign
 end
