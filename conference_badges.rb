@@ -25,41 +25,4 @@ def assign_rooms(speaker_array)
 end
 
 def printer(attendees)
- badge_array = []
- attendees.each do |name|
-   badge = batch_badge_creator(name)
-   badge_array << badge
- end
- return badge_array
- assign_array = []
- attendees.each do |name|
-   assign = room_assign(name)
-   assign_array << assign
- end
- return assign_array
- end
-  
-  
-  
-  #assign = []
-   # badge << batch_badge_creator(attendees)
-   # badge << assign_rooms(attendees)
- # puts badge
-    #assign << assign_rooms(attendees)
-  #puts assign
-#end
-
-#def printer(attendees)
-  #badge = []
-  #assignment = []
-  #attendee = 1
-  #while attendee <= attendees.size
-    #attendees.each do |name|
-    #batch_badge_creator(name)
-      #assignment = assign_room(name)
-      #attendee += 1
-    #end
-     #puts badge
-     #puts assignment
-  #end
-#end
+  batch_badge_creator(attendees)
